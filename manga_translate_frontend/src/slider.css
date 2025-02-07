@@ -1,0 +1,44 @@
+
+.custom-animated-handle {
+transition: transform 0.2s;
+}
+
+.slider-with-animated-handle:hover .custom-animated-handle {
+transform: scale(1.2);
+}
+
+.coloured-slider {
+--divider-width: 4px;
+--divider-color: #000000;
+}
+
+.before,
+.after {
+margin: 0;
+
+}
+
+.before figcaption,
+.after figcaption {
+background: #373737;
+border: 1px solid #313131;
+border-radius: 12px;
+color: #ffffff;
+opacity: 0.8;
+padding: 12px;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+line-height: 100%;
+font-family: 'SF Pro Display';
+font-Weight: 'bold';
+font-size: 22px;
+}
+
+.before figcaption {
+left: 3%;
+}
+
+.after figcaption {
+right: 3%;
+}

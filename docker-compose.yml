@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./manga_translate_backend/manga-image-translator
+      # If there’s a Dockerfile in that folder, it will be picked up automatically.
+    image: manga-image-translator
+    container_name: manga_translator_backend_cpu
+    ports:
+      - "5003:5003"
+    volumes:
+      - result:/app/result
+    command: server/main.py --verbose --start-instance --host=0.0.0.0 --port=5003
+
+  frontend:
+    build:
+      context: ./manga_translate_frontend
+    image: manga-translate-frontend
+    container_name: manga_translator_frontend
+    ports:
+      - "3000:3000"
+
+volumes:
+  result:

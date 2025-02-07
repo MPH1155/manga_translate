@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Euclid Circular B';
+    src: url('./fonts/Euclid Circular B Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Euclid Circular B';
+    src: url('./fonts/Euclid Circular B Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./fonts/SFPRODISPLAYREGULAR.OTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./fonts/SFPRODISPLAYBOLD.OTF') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
