@@ -1,5 +1,19 @@
 # Manga Translate
 
+# **Summary**
+
+Manga Translate leverages a open-source backend to handle complex processes like OCR, inpainting, and translation to achieve manga translation automation. A responsive React frontend is developed to provide a seamless, intuitive experience for manga enthusiasts. This project integrates robust AI functionality with user-friendly design, and includes a Docker Compose configuration for effortless local deployment and testing, making it accessible for both developers and end users alike.
+
+---
+
+# Demo
+
+![landingPage.jpg](landingPage.jpg)
+
+![demo.gif](demo.gif)
+
+---
+
 # Usage
 
 ---
