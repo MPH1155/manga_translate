@@ -8,6 +8,8 @@ Manga Translate leverages a open-source backend to handle complex processes like
 
 # Demo
 
+Live frontend demo: https://mph1155.github.io/manga_translate/
+
 ![landingPage.jpg](landingPage.jpg)
 
 ![demo.gif](demo.gif)
