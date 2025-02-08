@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/manga_translate/static/css/main.1150d7f9.css",
-    "main.js": "/manga_translate/static/js/main.21e904e9.js",
+    "main.js": "/manga_translate/static/js/main.fef47559.js",
     "static/media/SFPRODISPLAYBOLD.OTF": "/manga_translate/static/media/SFPRODISPLAYBOLD.b1f4d2c69fa808ebca12.OTF",
     "static/media/SFPRODISPLAYREGULAR.OTF": "/manga_translate/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
     "static/media/Euclid Circular B Regular.ttf": "/manga_translate/static/media/Euclid Circular B Regular.4a3055af2b5d3eb95690.ttf",
     "static/media/Euclid Circular B Bold.ttf": "/manga_translate/static/media/Euclid Circular B Bold.f9b0ae2872dea44f65c3.ttf",
     "index.html": "/manga_translate/index.html",
     "main.1150d7f9.css.map": "/manga_translate/static/css/main.1150d7f9.css.map",
-    "main.21e904e9.js.map": "/manga_translate/static/js/main.21e904e9.js.map"
+    "main.fef47559.js.map": "/manga_translate/static/js/main.fef47559.js.map"
   },
   "entrypoints": [
     "static/css/main.1150d7f9.css",
-    "static/js/main.21e904e9.js"
+    "static/js/main.fef47559.js"
   ]
 }
