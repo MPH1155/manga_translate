@@ -31,7 +31,7 @@ const FAQ: React.FC = () => {
         {/* Logo on the left */}
         <Box sx={{ display: 'flex', alignItems: 'center', marginLeft: '5%' }}>
         <a 
-          href="/" 
+          href={process.env.PUBLIC_URL + '/#/'}
           style={{ 
             display: 'flex',            
             alignItems: 'center',       
@@ -39,7 +39,7 @@ const FAQ: React.FC = () => {
             color: 'white' 
           }}
         >
-            <img src="/logo/logo.png" alt="Logo" style={{ height: '40px' }} />
+            <img src={process.env.PUBLIC_URL + '/logo/logo.png'} alt="Logo" style={{ height: '40px' }} />
             <Typography variant="h6" sx={{ fontFamily: 'SF Pro Display', fontWeight: 'bold', fontSize: '1.5rem', marginLeft: '10px' }}>
               Manga Translator
             </Typography>
@@ -62,7 +62,7 @@ const FAQ: React.FC = () => {
         >
           Try Now
         </Button>
-          <a href="/faq" style={{ textDecoration: 'none', color: 'white' }}>
+          <a href={process.env.PUBLIC_URL + '/#/faq'} style={{ textDecoration: 'none', color: 'white' }}>
             <Typography variant="body1" sx={{ cursor: 'pointer' }}>
               FAQ
             </Typography>
@@ -147,7 +147,7 @@ const FAQ: React.FC = () => {
           Please email detailed feedback (including screenshots and descriptions of errors) to mangatranslator@gmail.com. Our team reviews submissions daily and uses them to improve accuracy in future model updates.<br/>
           <br/>
 
-          <a href="/" style={{ textDecoration: 'underline', color: 'white',  }}>
+          <a href={process.env.PUBLIC_URL + '/#/'} style={{ textDecoration: 'underline', color: 'white',  }}>
               Back To Home Page
           </a>
         </Typography>

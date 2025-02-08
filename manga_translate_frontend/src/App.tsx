@@ -84,7 +84,7 @@ function App() {
         {/* Logo on the left */}
         <Box sx={{ display: 'flex', alignItems: 'center', marginLeft: '5%' }}>
         <a 
-          href="/" 
+          href={process.env.PUBLIC_URL + '/#/'} 
           style={{ 
             display: 'flex',            
             alignItems: 'center',       
@@ -92,7 +92,7 @@ function App() {
             color: 'white' 
           }}
         >
-            <img src="/logo/logo.png" alt="Logo" style={{ height: '40px' }} />
+            <img src={process.env.PUBLIC_URL + '/logo/logo.png'}  alt="Logo" style={{ height: '40px' }} />
             <Typography variant="h6" sx={{ fontFamily: 'SF Pro Display', fontWeight: 'bold', fontSize: '1.5rem', marginLeft: '10px' }}>
               Manga Translator
             </Typography>
@@ -115,7 +115,7 @@ function App() {
         >
           Try Now
         </Button>
-          <a href="/faq" style={{ textDecoration: 'none', color: 'white' }}>
+          <a href={process.env.PUBLIC_URL + '/#/faq'} style={{ textDecoration: 'none', color: 'white' }}>
             <Typography variant="body1" sx={{ cursor: 'pointer' }}>
               FAQ
             </Typography>
@@ -139,7 +139,7 @@ function App() {
           padding: 0,
           
           position : 'relative',
-          backgroundImage: 'url(/backgroundImage/background-transformed-cropped.png)',
+          backgroundImage: `url( ${process.env.PUBLIC_URL}/backgroundImage/background-transformed-cropped.png )`,
           backgroundSize: 'cover',
           backgroundPosition: 'right',
         }}
@@ -279,11 +279,11 @@ function App() {
         >
           <img-comparison-slider class="custom-animated-handle coloured-slider">
             <figure slot="first" className="before">
-              <img src="/images/before.jpg" alt="Original manga" style={{ width: '100%', height: 'auto' }} />
+              <img src={process.env.PUBLIC_URL + "/images/before.jpg"} alt="Original manga" style={{ width: '100%', height: 'auto' }} />
               <figcaption>Before</figcaption>
             </figure>
             <figure slot="second" className="after">
-              <img src="/images/after.png" alt="Translated manga" style={{ width: '100%', height: 'auto' }} />
+              <img src={process.env.PUBLIC_URL + "/images/after.png"} alt="Translated manga" style={{ width: '100%', height: 'auto' }} />
               <figcaption>After</figcaption>
             </figure>
             <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
@@ -342,7 +342,7 @@ function App() {
           }}
         >
           <video
-            src="/demoVideo/demo.mp4"
+            src={process.env.PUBLIC_URL + "/demoVideo/demo.mp4"}
             autoPlay
             loop
             muted
